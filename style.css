@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Amatic SC", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -1.5rem;
+}
+.logo {
+  width: 70px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid rgb(241, 240, 240);
+}
+.nav_menu li {
+  list-style: none;
+}
+.nav_menu li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  color: #2c2c2c;
+  font-weight: bold;
+  padding: 1rem 0;
+  transition: 0.3s;
+}
+.nav_menu li a:hover {
+  color: #b94040;
+}
+.hero {
+  margin-top: 2rem;
+}
+.hero_content {
+  background: url("https://i.postimg.cc/1XdWcsH2/herbs-g4ad17987d-1920.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  object-fit: cover;
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  transform: translate(-8%, -50%);
+  z-index: 100;
+  text-align: center;
+  color: #b94040;
+  background: #f2e5decf;
+  padding: 4rem 5rem;
+}
+
+.promotion p {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+}
+
+.hero_text h2 {
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  line-height: 0.9;
+}
+.hero_text p {
+  margin-top: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+button {
+  padding: 12px 28px;
+  margin-top: 2rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  border-radius: 5px;
+  border: 0;
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+}
+button:hover {
+  background-color: #b94040;
+  color: white;
+}
+.section_title {
+  text-align: center;
+  max-width: 58%;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  justify-content: center;
+}
+.section_title h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #555454;
+}
+.section_title p {
+  font-size: 0.8rem;
+  color: gray;
+}
+.products {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.prducts_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prducts_content article {
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 1rem;
+  border: 1px solid #b0b0b036;
+  width: 28%;
+}
+
+.prducts_content article img {
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.prducts_content article:hover {
+  transform: scale(1.05);
+  border: 1px solid #b94040;
+}
+
+.prducts_content article h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+  font-weight: 700;
+  margin: 0.75rem 0;
+}
+
+.prducts_content article p {
+  font-size: 14px;
+  color: #514f4f;
+}
+
+footer {
+  display: flex;
+  background: #f2e5de;
+  padding: 1rem 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  column-gap: 30%;
+}
+.footer_logo img {
+  width: 50px;
+}
+/* .footer_text {
+  width: ;
+} */
